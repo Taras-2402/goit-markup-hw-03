@@ -1,0 +1,111 @@
+:root {
+    --primary-font: 'Roboto',
+        sans-serif;
+    --secondary-font: 'Raleway',
+        sans-serif;
+    --text-color: #2E2F42;
+    --paragraf-color: #434455;
+}
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+body {
+font-family: var(--primary-font);
+color: var(--text-color);
+}
+
+/*-- Header--*/
+.logo-web {
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #4D5AE5;
+    }
+.studio {
+    color: var(--text-color);
+    }
+.studio-footer {
+    color: #F4F4FD
+}    
+.menu-link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    color:  var(--text-color);
+} 
+.mail-studio, .phone-number {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/*--/Header--*/
+/*--Hero--*/
+.title {
+    display: none;
+}
+.main-title {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    /*color: #FFFFFF;
+*/} 
+.modal-btn {
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.19;
+    display: flex;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: #4D5AE5;
+}  
+.modal-btn:hover,
+.modal-btn:focus {
+    background: #404BBF;
+    color: #FFFFFF;
+}
+.quality {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.text-list {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--paragraf-color);
+}
+.subtitle {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.name {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+/*--/Hero--*/
+/*--Footer--*/
+.subname {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--paragraf-color);
+}
+.paragraf {
+    color: #E7E9FC;
+}
+/*--/Footer--*/
