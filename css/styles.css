@@ -13,12 +13,30 @@
 .link {
     text-decoration: none;
 }
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding-left: 0;
+}
 body {
 font-family: var(--primary-font);
 color: var(--text-color);
 }
 
 /*-- Header--*/
+.page-header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 1px solid red;
+    margin: 0 auto;
+}
 .logo-web {
     font-family: var(--secondary-font);
     font-weight: 800;
@@ -30,8 +48,10 @@ color: var(--text-color);
     color: var(--text-color);
     }
 .studio-footer {
-    color: #F4F4FD
-}    
+    color: #F4F4FD;
+    
+}
+
 .menu-link {
     font-weight: 600;
     font-size: 16px;
@@ -47,6 +67,10 @@ color: var(--text-color);
 }
 /*--/Header--*/
 /*--Hero--*/
+.hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
 .title {
     display: none;
 }
@@ -55,8 +79,9 @@ color: var(--text-color);
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    /*color: #FFFFFF;
-*/} 
+    /*color: #FFFFFF;*/
+    margin-bottom: 48px;
+} 
 .modal-btn {
     font-family: var(--primary-font);
     font-weight: 600;
@@ -72,11 +97,16 @@ color: var(--text-color);
     background: #404BBF;
     color: #FFFFFF;
 }
+.qual {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .quality {
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 .text-list {
     font-size: 16px;
@@ -84,28 +114,51 @@ color: var(--text-color);
     letter-spacing: 0.02em;
     color: var(--paragraf-color);
 }
+.work {
+    padding-bottom: 120px;
+}
 .subtitle {
     font-weight: 600;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
+}
+.subtitle-list {
+    padding-bottom: 120px;
+}
+.our-team {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .name {
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-top: 32px;
+    margin-bottom: 8px;
+    
 }
-/*--/Hero--*/
-/*--Footer--*/
+
 .subname {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--paragraf-color);
+    
 }
+/*--/Hero--*/
+/*--Footer--*/
+.footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 .paragraf {
     color: #E7E9FC;
+    margin-top: 16px;
+    
 }
 /*--/Footer--*/
