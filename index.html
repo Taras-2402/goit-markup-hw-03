@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://github.com/sindresorhus/modern-normalize"/>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--Header-->
     <header class="page-header">
-      <div class="container">
+      <div class="container header-container">
         <nav class="page-nav">
           <a class="logo-web link" href="./index.html">WEB<span class="studio">STUDIO</span> </a></a>
           <ul class="menu list">
@@ -21,11 +21,16 @@
             <li class="menu-iten"><a class="menu-link link" href="">Contacts</a></li>
           </ul>
         </nav>
+        <ul class="list list-container">
+          <li class="mail">
+            <a class="mail-studio link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="phone">
+            <a class="phone-number link" href="tel:+11(000)1111111">+11 (000) 111-11-11</a>
+          </li>
+        </ul>
       </div>
-      <ul class="list">
-        <li><a class="mail-studio link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="phone-number link" href="tel:+11(000)1111111">+11 (000) 111-11-11</a></li>
-      </ul>
+      
     </header>
     <!--Main-->
     <main>
@@ -39,7 +44,7 @@
       </section>
       <section class="qual">
       <div class="container">
-        <ul class="list">
+        <ul class="list list-qual">
           <li class="quality-list"
             ><h3 class="quality">Strategy</h3>
             <p class="text-list"
@@ -95,7 +100,7 @@
       <section class="our-team">
       <div class="container">
         <h2 class="subtitle ">Our Team</h2>
-        <ul class="list">
+        <ul class="list list-our-team">
           <li
             ><img
               src="./images/markguererro.jpg"
